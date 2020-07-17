@@ -62,7 +62,7 @@ def banner():
 
 banner()
 
-print wd+"         https://www.github.com/IqbalzNoobs "
+print wd+"         https://www.github.com/nel069Noobs "
 print GG+"╭────\033[91m[\033[96m Masukkan ID\033[95m / \033[96mUsername Target\033[91m ] "
 email_target = str(raw_input(GL+"\033[92m╰────➲\033[93m  "))
 print " "
@@ -144,11 +144,11 @@ def iqbalz(iqbalz_password):
       edit_wordlist()
       sys.exit()    	    
 def life():
-	global iqbalz_password
+	global nel069_password
 	password_nob = open(password_list, "r")
-	for iqbalz_password in password_nob:
-		password_nob = iqbalz_password.replace("\n","")
-		iqbalz(iqbalz_password)		
+	for nel069_password in password_nob:
+		password_nob = nel069_password.replace("\n","")
+		nel069(iqbalz_password)		
 
 def runn_noobs():
          global password_list
